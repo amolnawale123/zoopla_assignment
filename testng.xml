@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ZooplaTestAutomationSuite">
+  <test thread-count="5" name="ZooplaFunctionalTests" preserve-order=true>
+    <classes>
+      <class name="com.zoopla.assgmnt.testcases.PrintPropertyValueDescendingTest"/>
+      <class name="com.zoopla.assgmnt.testcases.SelectFifthPropertyTest"/>
+      <class name="com.zoopla.assgmnt.testcases.ClickAgentNameOnSelectedFifthPropertyTest"/>
+      <class name="com.zoopla.assgmnt.testcases.ValidateAgentNameDetailsTest"/>
+    </classes>
+  </test> <!-- ZooplaFunctionalTests -->
+</suite> <!-- ZooplaTestAutomationSuite -->
